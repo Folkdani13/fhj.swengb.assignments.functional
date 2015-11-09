@@ -1,4 +1,4 @@
-package fhj.swengb.assignments.functional.rladstaetter
+package fhj.swengb.assignments.functional.dfolk
 
 import org.junit.Assert._
 import org.junit.{Ignore, Test}
@@ -13,14 +13,14 @@ class FunctionalAssignmentTest {
 
   val assignment0 = FunctionalAssignment(lowerBound, upperBound, factor)
 
+
   /**
    * this test shows that your Assignment1 contains an attribute
    * (either val, var or def) which returns a collection containing
    * 100 elements.
    */
   @Test def provideCollectionWith1000Elements(): Unit = {
-    assertEquals(upperBound - lowerBound + 1, assignment0.xs.size)
-  }
+    assertEquals(upperBound - lowerBound + 1, assignment0.xs.size)  }
 
   /**
    * Test shows that elements are smaller or equal than 1000
